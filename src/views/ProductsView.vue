@@ -62,16 +62,16 @@ export default {
 
     h3 a{
         font-weight: 600;
-        background: #7f227f;
-        color: white;
+        background: var(--con-col);
+        color: var(--hov-col);
         padding: 1px 5px;
         text-transform: uppercase;
         transition: all 0.4s;
     }
 
     h3 a:hover{
-        color: #7f227f;
-        background: white;
+        color: var(--con-col);
+        background: var(--hov-col);
     }
 
 </style>

@@ -25,6 +25,7 @@
   --pc-col: rgb(173, 119, 61);
   --font-col: #141414;
   --hov-col: beige;
+  --con-col: #7f227f;
 }
 
 body{
@@ -71,7 +72,7 @@ nav a:nth-of-type(1){
 }
 
 nav a:nth-of-type(1):hover{
-  border: 2px solid white;
+  border: 2px solid var(--hov-col);
   padding: 5px 10px;
 }
 

@@ -53,14 +53,14 @@ export default({
     outline: none;
     border: none;
     font-size: 20px;
-    background: white;
+    background:var(--hov-col);
   }
 
   .water{
     padding: 10px;
     font-weight: 700;
-    background: #7f227f;
-    color: white;
+    background: var(--con-col);
+    color:var(--hov-col);
     font-weight: 500;
     letter-spacing: 1px;
   }
